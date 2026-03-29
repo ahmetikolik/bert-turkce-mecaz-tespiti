@@ -1,0 +1,20 @@
+# Python önbellek dosyaları
+__pycache__/
+*.pyc
+
+# Eğitilmiş Model ve Ağırlık Klasörleri (Çok yer kaplar)
+best_model/
+model_output/
+tmp_trainer/
+logs/
+
+# Sistem ve Editör Dosyaları
+.VSCode/
+.vscode/
+.idea/
+.DS_Store
+
+# Sanal ortam
+venv/
+.env/
+env/

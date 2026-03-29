@@ -1,0 +1,4002 @@
+[
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    },
+    {
+        "tokens": [
+            "Ayağını",
+            "denk",
+            "al",
+            "yoksa",
+            "görürsün",
+            "gününü",
+            "."
+        ],
+        "labels": [
+            "B-DEYIM",
+            "I-DEYIM",
+            "I-DEYIM",
+            "O",
+            "B-DEYIM",
+            "I-DEYIM",
+            "O"
+        ]
+    }
+]
