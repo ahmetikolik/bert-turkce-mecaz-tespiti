@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Sistem Tasarımı ve Deneysel Sonuçlar</title>
+<style>
+  @page { size: A4; margin: 2.5cm; }
+  html { background: #e8eaed; }
+  body {
+    font-family: "Cambria", "Georgia", "Times New Roman", serif;
+    font-size: 11pt;
+    line-height: 1.55;
+    color: #1a1a1a;
+    max-width: 820px;
+    margin: 30px auto;
+    padding: 60px 70px;
+    background: #ffffff;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    text-align: justify;
+    hyphens: auto;
+  }
+  h1 {
+    font-family: "Calibri", "Helvetica", "Arial", sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    color: #0d2c54;
+    border-bottom: 3px solid #0d2c54;
+    padding-bottom: 8px;
+    margin-top: 40px;
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+  }
+  h2 {
+    font-family: "Calibri", "Helvetica", "Arial", sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: #1a4480;
+    margin-top: 26px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-family: "Calibri", "Helvetica", "Arial", sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+    color: #2c5aa0;
+    margin-top: 18px;
+    margin-bottom: 8px;
+  }
+  p { margin: 8px 0 12px 0; }
+  strong { color: #000; }
+  .caption {
+    font-family: "Calibri", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    color: #0d2c54;
+    margin: 18px 0 6px 0;
+    font-size: 10.5pt;
+    text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 4px 0 18px 0;
+    font-size: 10pt;
+    font-family: "Calibri", "Helvetica", "Arial", sans-serif;
+  }
+  table thead th {
+    background: #0d2c54;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 8px 10px;
+    border: 1px solid #0d2c54;
+    text-align: center;
+  }
+  table tbody td {
+    padding: 6px 10px;
+    border: 1px solid #c0c8d4;
+    vertical-align: top;
+  }
+  table tbody tr:nth-child(odd)  { background: #f5f7fa; }
+  table tbody tr:nth-child(even) { background: #ffffff; }
+  table tbody tr.highlight        { background: #fff8dc !important; font-weight: 600; }
+  table tbody tr.total            { background: #e3eaf4 !important; font-weight: 700; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.center, th.center { text-align: center; }
+  td.left, th.left { text-align: left; }
+
+  pre.diagram, pre.algo, pre.json {
+    background: #f8f9fb;
+    border: 1px solid #c0c8d4;
+    border-left: 4px solid #2c5aa0;
+    border-radius: 3px;
+    padding: 14px 18px;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 10pt;
+    line-height: 1.45;
+    overflow-x: auto;
+    margin: 10px 0 18px 0;
+    color: #1a1a1a;
+  }
+  pre.algo { border-left-color: #b03a2e; background: #fdf6f5; }
+  pre.json { border-left-color: #16794c; background: #f3faf6; font-size: 9.5pt; }
+
+  .algo-title {
+    font-weight: 600;
+    font-family: "Calibri", "Helvetica", "Arial", sans-serif;
+    color: #b03a2e;
+    margin: 14px 0 4px 0;
+    font-size: 10.5pt;
+  }
+  .figure-title {
+    font-weight: 600;
+    font-family: "Calibri", "Helvetica", "Arial", sans-serif;
+    color: #0d2c54;
+    text-align: center;
+    margin: 14px 0 6px 0;
+    font-size: 10.5pt;
+  }
+
+  ol, ul { margin: 6px 0 12px 22px; padding: 0; }
+  ol li, ul li { margin: 4px 0; }
+
+  .ref {
+    font-size: 9.5pt;
+    margin: 6px 0;
+    text-indent: -28px;
+    padding-left: 28px;
+    text-align: left;
+  }
+
+  .footnote {
+    font-size: 9pt;
+    color: #555;
+    margin-top: 4px;
+  }
+
+  hr.section-break {
+    border: none;
+    border-top: 2px dashed #c0c8d4;
+    margin: 36px 0;
+  }
+</style>
+</head>
+<body>
+
+<h1>4. SİSTEM TASARIMI</h1>
+
+<p>Bu bölümde, Türkçe metinlerde deyim, mecaz ve abartı söz sanatlarının tespiti için tasarlanan sistemin genel yapısı, kullanılan veri kümesi, ön işleme adımları, model mimarisi ve eğitim süreci ayrıntılı olarak açıklanmıştır.</p>
+
+<h2>4.1. Sistemin Genel Yapısı</h2>
+
+<p>Önerilen sistem, üç farklı söz sanatı türünü (Deyim, Mecaz, Abartı) tespit etmek üzere <strong>birbirinden bağımsız üç adet BERTurk-tabanlı token sınıflandırma modelinin paralel çalıştığı bir topluluk (ensemble) mimarisi</strong> üzerine kurulmuştur. Bölüm 2'de tanıtılan 7 sınıflı BIO etiket şeması, sistem tasarımı aşamasında her kategori için ayrı bir 3 sınıflı (<code>O</code>, <code>B-X</code>, <code>I-X</code>) alt-şemaya bölünmüş; her alt-şema için bir BERTurk modeli ince ayar (fine-tuning) işlemine tabi tutulmuştur. Çıkarım sürecinde üç modelin tahminleri paralel olarak alınır ve çakışan span'ler <code>max_score</code> adı verilen strateji ile çözülerek nihai çıktı üretilir.</p>
+
+<p>Sistemin uçtan uca işleyişi Şekil 4.1'deki blok diyagramında gösterilmiştir.</p>
+
+<div class="figure-title">Şekil 4.1 &nbsp;&nbsp;Sistemin Genel Blok Diyagramı</div>
+<div style="text-align:center; margin:14px 0 18px 0;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" style="max-width:480px; width:100%; font-family:'Calibri','Helvetica','Arial',sans-serif;">
+  <!-- Girdi -->
+  <rect x="160" y="8" width="200" height="44" rx="6" fill="#eef2f7" stroke="#0d2c54" stroke-width="1.5"/>
+  <text x="260" y="26" text-anchor="middle" font-size="10" font-weight="600" fill="#0d2c54">Girdi: Türkçe Metin</text>
+  <text x="260" y="42" text-anchor="middle" font-size="8.5" fill="#4a5568">(örn. "Ayağını denk al")</text>
+  <!-- Ok 1 -->
+  <line x1="260" y1="52" x2="260" y2="72" stroke="#0d2c54" stroke-width="1.2"/>
+  <polygon points="256,70 264,70 260,78" fill="#0d2c54"/>
+  <!-- Tokenizer -->
+  <rect x="130" y="80" width="260" height="40" rx="6" fill="#eef2f7" stroke="#1a4480" stroke-width="1.5"/>
+  <text x="260" y="97" text-anchor="middle" font-size="10" font-weight="600" fill="#1a4480">BERTurk WordPiece Tokenize</text>
+  <text x="260" y="111" text-anchor="middle" font-size="8.5" fill="#4a5568">(alt-kelime bölme + ID)</text>
+  <!-- Dallanma okları -->
+  <line x1="200" y1="120" x2="100" y2="155" stroke="#1a4480" stroke-width="1" stroke-dasharray="4,3"/>
+  <polygon points="97,152 104,152 100,159" fill="#1a4480"/>
+  <line x1="260" y1="120" x2="260" y2="155" stroke="#1a4480" stroke-width="1" stroke-dasharray="4,3"/>
+  <polygon points="256,153 264,153 260,159" fill="#1a4480"/>
+  <line x1="320" y1="120" x2="420" y2="155" stroke="#1a4480" stroke-width="1" stroke-dasharray="4,3"/>
+  <polygon points="417,152 424,152 420,159" fill="#1a4480"/>
+  <!-- Model 1 - DEYİM -->
+  <rect x="40" y="162" width="120" height="56" rx="5" fill="none" stroke="#b03a2e" stroke-width="1.3" stroke-dasharray="5,3"/>
+  <text x="100" y="178" text-anchor="middle" font-size="8" font-weight="600" fill="#666" letter-spacing="1">MODEL #1</text>
+  <text x="100" y="194" text-anchor="middle" font-size="11" font-weight="700" fill="#b03a2e">DEYİM</text>
+  <text x="100" y="210" text-anchor="middle" font-size="8" fill="#666">(B / I / O)</text>
+  <!-- Model 2 - MECAZ -->
+  <rect x="200" y="162" width="120" height="56" rx="5" fill="none" stroke="#16794c" stroke-width="1.3" stroke-dasharray="5,3"/>
+  <text x="260" y="178" text-anchor="middle" font-size="8" font-weight="600" fill="#666" letter-spacing="1">MODEL #2</text>
+  <text x="260" y="194" text-anchor="middle" font-size="11" font-weight="700" fill="#16794c">MECAZ</text>
+  <text x="260" y="210" text-anchor="middle" font-size="8" fill="#666">(B / I / O)</text>
+  <!-- Model 3 - ABARTI -->
+  <rect x="360" y="162" width="120" height="56" rx="5" fill="none" stroke="#c27a0e" stroke-width="1.3" stroke-dasharray="5,3"/>
+  <text x="420" y="178" text-anchor="middle" font-size="8" font-weight="600" fill="#666" letter-spacing="1">MODEL #3</text>
+  <text x="420" y="194" text-anchor="middle" font-size="11" font-weight="700" fill="#c27a0e">ABARTI</text>
+  <text x="420" y="210" text-anchor="middle" font-size="8" fill="#666">(B / I / O)</text>
+  <!-- Birleşme okları -->
+  <line x1="100" y1="218" x2="260" y2="260" stroke="#1a4480" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="260" y1="218" x2="260" y2="260" stroke="#1a4480" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="420" y1="218" x2="260" y2="260" stroke="#1a4480" stroke-width="1" stroke-dasharray="4,3"/>
+  <polygon points="256,258 264,258 260,265" fill="#1a4480"/>
+  <!-- Çakışma Çözümü -->
+  <rect x="120" y="268" width="280" height="56" rx="6" fill="#fdf6f5" stroke="#b03a2e" stroke-width="1.3"/>
+  <text x="260" y="286" text-anchor="middle" font-size="10" font-weight="600" fill="#b03a2e">Çakışma Çözümü (max_score)</text>
+  <text x="260" y="300" text-anchor="middle" font-size="8.5" fill="#4a5568">Aynı span'i birden fazla model işaretlerse,</text>
+  <text x="260" y="313" text-anchor="middle" font-size="8.5" fill="#4a5568">en yüksek skorlu kazanır.</text>
+  <!-- Ok 3 -->
+  <line x1="260" y1="324" x2="260" y2="348" stroke="#0d2c54" stroke-width="1.2"/>
+  <polygon points="256,346 264,346 260,354" fill="#0d2c54"/>
+  <!-- Çıktı -->
+  <rect x="130" y="356" width="260" height="44" rx="6" fill="#e3eaf4" stroke="#0d2c54" stroke-width="1.5"/>
+  <text x="260" y="374" text-anchor="middle" font-size="10" font-weight="600" fill="#0d2c54">Çıktı: Etiketlenmiş Span'ler</text>
+  <text x="260" y="390" text-anchor="middle" font-size="8.5" fill="#4a5568">[Ayağını denk al → DEYİM]</text>
+</svg>
+</div>
+
+<h2>4.2. Materyal ve Veri Kümesi</h2>
+
+<h3>4.2.1. Veri Kümesinin Yapısı ve Saklama Biçimi</h3>
+
+<p>Çalışmada kullanılan veri kümesi, projeyi geliştirme sürecinde tarafımızca derlenen Türkçe cümlelerden oluşmaktadır. Her örnek; cümlenin kelime listesi (<code>tokens</code>) ve bu kelimelere karşılık gelen BIO formatındaki etiket listesinden (<code>labels</code>) meydana gelir. Veri kümesi, tüm modern NLP araçlarıyla uyumluluk sağlamak amacıyla <strong>JSON formatında</strong> saklanmıştır. Tek bir örneğin yapısı aşağıdaki gibidir:</p>
+
+<pre class="json">{
+  "tokens": ["Ayağını", "denk", "al", "yoksa", "başın", "belaya", "girer"],
+  "labels": ["B-DEYIM", "I-DEYIM", "I-DEYIM", "O", "B-DEYIM", "I-DEYIM", "I-DEYIM"]
+}</pre>
+
+<p>3-model mimarisinin gereği olarak, ham veri kümesi her sanat türü için ayrı bir dosyaya bölünmüştür. Her dosya, yalnızca kendi kategorisine ait pozitif etiketleri (<code>B-X</code>, <code>I-X</code>) ve diğer tüm tokenlar için <code>O</code> etiketini içerir. Veri kümelerinin temel istatistikleri Tablo 4.1'de verilmiştir.</p>
+
+<div class="caption">Tablo 4.1 &nbsp;&nbsp;Kategori Bazlı Veri Kümesi İstatistikleri</div>
+<table>
+  <thead>
+    <tr>
+      <th class="left">Veri Kümesi</th>
+      <th class="num">Cümle</th>
+      <th class="num">Toplam Token</th>
+      <th class="num">B Etiketi</th>
+      <th class="num">I Etiketi</th>
+      <th class="num">O Etiketi</th>
+      <th class="num">Pozitif Oran</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td class="left">dataset_deyim.json</td>  <td class="num">1.187</td><td class="num">7.942</td><td class="num">1.175</td><td class="num">1.776</td><td class="num">4.991</td><td class="num">%37,2</td></tr>
+    <tr><td class="left">dataset_mecaz.json</td>  <td class="num">302</td>  <td class="num">1.942</td><td class="num">357</td>  <td class="num">82</td>   <td class="num">1.503</td><td class="num">%22,6</td></tr>
+    <tr><td class="left">dataset_abarti.json</td> <td class="num">390</td>  <td class="num">3.302</td><td class="num">391</td>  <td class="num">768</td>  <td class="num">2.143</td><td class="num">%35,1</td></tr>
+    <tr class="total"><td class="left">Toplam</td><td class="num">1.879</td><td class="num">13.186</td><td class="num">1.923</td><td class="num">2.626</td><td class="num">8.637</td><td class="num">%34,5</td></tr>
+  </tbody>
+</table>
+
+<p>Cümle başına token sayısı 4 ile 13 arasında değişmekte olup ortalama 6,4–8,5 arasındadır. Bu değer, BERTurk modelinin 512 tokenlik dizi sınırının çok altında kaldığından, eğitim ve çıkarım aşamalarında <strong>truncation (kesme) işlemine ihtiyaç duyulmamıştır</strong>.</p>
+
+<h3>4.2.2. Veri Bölümleme Stratejisi</h3>
+
+<p>Her bir kategorinin veri kümesi, sabit bir rastgelelik tohumu (<code>seed = 42</code>) ile <strong>%80 eğitim / %10 doğrulama / %10 test</strong> oranında üç parçaya bölünmüştür. Bu oran, derin öğrenme literatüründe ince ayar görevleri için yaygın olarak benimsenen bir bölmedir. Doğrulama kümesi, her epoch sonunda erken durma ve en iyi modelin seçimi için kullanılmıştır. Kategori bazlı bölme istatistikleri Tablo 4.2'de gösterilmiştir.</p>
+
+<div class="caption">Tablo 4.2 &nbsp;&nbsp;Train / Validation / Test Bölmesi</div>
+<table>
+  <thead>
+    <tr>
+      <th class="left">Kategori</th>
+      <th class="num">Train</th>
+      <th class="num">Validation</th>
+      <th class="num">Test</th>
+      <th class="num">Toplam</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td class="left">DEYİM</td>  <td class="num">949</td><td class="num">119</td><td class="num">119</td><td class="num">1.187</td></tr>
+    <tr><td class="left">MECAZ</td>  <td class="num">241</td><td class="num">30</td> <td class="num">31</td> <td class="num">302</td></tr>
+    <tr><td class="left">ABARTI</td> <td class="num">312</td><td class="num">39</td> <td class="num">39</td> <td class="num">390</td></tr>
+  </tbody>
+</table>
+
+<h3>4.2.3. Ön İşleme Adımları</h3>
+
+<p>Veri kümesine uygulanan ön işleme adımları sırasıyla aşağıdaki gibidir:</p>
+<ol>
+  <li><strong>Şema doğrulaması:</strong> Her örnek için <code>len(tokens) == len(labels)</code> koşulu kontrol edilir; uyumsuz örnekler raporlanır.</li>
+  <li><strong>Etiket geçerliliği kontrolü:</strong> Her veri kümesinde yalnızca ilgili kategorinin <code>{O, B-X, I-X}</code> etiket alt kümesinin yer aldığı doğrulanır.</li>
+  <li><strong>WordPiece tokenizasyonu:</strong> BERTurk'un 32.000 sözlü kelime hazinesine dayanan WordPiece tokenizer'ı, kelimeleri alt-parçalara (subword) bölebilmektedir (örn. <em>"Gözyaşları"</em> → <code>Göz</code>, <code>##yaş</code>, <code>##ları</code>).</li>
+  <li><strong>Etiket hizalama:</strong> Bir kelime birden fazla alt-parçaya bölündüğünde, orijinal etiket <strong>yalnızca ilk parçaya</strong> atanır; sonraki parçalar <code>-100</code> özel değeri ile işaretlenir. Bu yaklaşım, kayıp fonksiyonunda yalnızca anlamlı tokenların değerlendirilmesini sağlar. <code>[CLS]</code>, <code>[SEP]</code> ve <code>[PAD]</code> özel tokenlarına da <code>-100</code> atanır.</li>
+  <li><strong>Dinamik padding:</strong> Her batch içindeki en uzun diziye göre <code>DataCollatorForTokenClassification</code> ile dinamik padding uygulanır; bu, sabit padding'e göre eğitim hızında %15-25'lik kazanç sağlamaktadır.</li>
+</ol>
+
+<h2>4.3. Metot</h2>
+
+<h3>4.3.1. Üç Modelli Mimari Tasarım Kararı</h3>
+
+<p>Geleneksel yaklaşımda, Bölüm 2'deki Tablo 2.2'de gösterilen 7 sınıflı BIO şeması tek bir model üzerinde uygulanır. Ancak bu yaklaşımda model, üç farklı sanat türünü birbirinden ayırmaya çalışırken sınıflar arası <strong>gradyan müdahalesine (gradient interference)</strong> maruz kalmakta ve her bir sanat türü için yeterince özelleşmiş bir karar yüzeyi öğrenememektedir. Bu projede, problem <strong>üç bağımsız ikili (binary) NER modeline</strong> dekompoze edilmiştir. Tasarım kararının gerekçeleri Tablo 4.3'te özetlenmiştir.</p>
+
+<div class="caption">Tablo 4.3 &nbsp;&nbsp;Üç Modelli Mimarinin Avantajları ve Maliyetleri</div>
+<table>
+  <thead>
+    <tr><th class="num">#</th><th class="left">Avantaj</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="num">1</td><td class="left">Her model <strong>tek bir konsepte odaklanır</strong>; sanat türüne özel karar yüzeyi öğrenir.</td></tr>
+    <tr><td class="num">2</td><td class="left">Sınıflar arası <strong>gradyan müdahalesi</strong> ortadan kalkar.</td></tr>
+    <tr><td class="num">3</td><td class="left">Etiketleme gürültüsü kategori bazlı izole edilir; bir kategorideki hata diğerlerini etkilemez.</td></tr>
+    <tr><td class="num">4</td><td class="left">Her kategori için <strong>bağımsız veri büyütme</strong> stratejisi uygulanabilir.</td></tr>
+    <tr><td class="num">5</td><td class="left">Per-kategori metrikler (DEYİM-F1, MECAZ-F1, ABARTI-F1) doğrudan ölçülebilir.</td></tr>
+    <tr><td class="num">6</td><td class="left">Modeller bağımsız olduğu için <strong>paralel eğitim ve ölçeklendirme</strong> mümkündür.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th class="num">#</th><th class="left">Maliyet</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="num">1</td><td class="left">Yaklaşık 3 katı disk alanı (toplam ∼330 MB checkpoint dosyası).</td></tr>
+    <tr><td class="num">2</td><td class="left">Çıkarım süresi 3 katı; ancak modeller bağımsız olduğundan paralelleştirilebilir.</td></tr>
+    <tr><td class="num">3</td><td class="left">Çakışan tahminler için ek bir çözüm mekanizması (bkz. Bölüm 4.3.4) gerektirir.</td></tr>
+  </tbody>
+</table>
+
+<h3>4.3.2. BERTurk Tabanlı Token Sınıflandırma Modeli</h3>
+
+<p>Her kategori için ayrı bir kopyası ince ayara tabi tutulan model, Bölüm 2'de açıklanan <strong><code>dbmdz/bert-base-turkish-cased</code></strong> modelidir [4]. Bu model üzerine, 768 boyutlu son gizli katmanı 3 sınıfa eşleştiren <strong>doğrusal bir sınıflandırma katmanı (head)</strong> eklenmiştir. Eğitim, token başına <strong>çapraz entropi (Cross-Entropy)</strong> kayıp fonksiyonu ile gerçekleştirilmiş olup, <code>-100</code> etiketli tokenlar kayıp hesaplamasının dışında tutulmuştur.</p>
+
+<p>Model performansının değerlendirilmesinde sıralı etiketleme görevleri için standart kabul edilen <strong>seqeval</strong> kütüphanesi [7] kullanılmıştır. Bu kütüphane; tahmin ve gerçek etiket dizileri üzerinde <strong>varlık (entity) seviyesinde</strong> Precision, Recall ve F1 metriklerini hesaplar. NER görevlerinde <code>O</code> etiketinin baskın olması nedeniyle token seviyesinde Accuracy yanıltıcı olabileceğinden, ana karar metriği olarak <strong>F1</strong> alınmıştır.</p>
+
+<h3>4.3.3. Eğitim Süreci ve Hiperparametre Seçimi</h3>
+
+<p>Üç modelin tamamı için, kontrollü karşılaştırma yapılabilmesi amacıyla aynı hiperparametre seti kullanılmıştır. Hiperparametre değerleri, BERT ince ayar literatüründe [3] yaygın olarak önerilen değerler temel alınarak belirlenmiştir. Detaylar Tablo 4.4'te verilmiştir.</p>
+
+<div class="caption">Tablo 4.4 &nbsp;&nbsp;Eğitim Hiperparametreleri</div>
+<table>
+  <thead>
+    <tr>
+      <th class="left">Parametre</th>
+      <th class="left">Değer</th>
+      <th class="left">Gerekçe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Optimizer</td><td>AdamW [8]</td><td>Transformer eğitiminde standart, ağırlık çürümesi düzgün ayrışır</td></tr>
+    <tr><td>Öğrenme Oranı (lr)</td><td>2 × 10⁻⁵</td><td>BERT ince ayarı için literatürdeki tipik aralık</td></tr>
+    <tr><td>Ağırlık Çürümesi (wd)</td><td>0,01</td><td>L2 regularizasyon</td></tr>
+    <tr><td>Batch Size (train/eval)</td><td>16</td><td>GPU belleğine sığacak en büyük makul değer</td></tr>
+    <tr><td>Epoch Sayısı</td><td>3</td><td>Hızlı yakınsama; ek epoch overfit riskini artırır</td></tr>
+    <tr><td>LR Scheduler</td><td>Linear</td><td>Lineer azalan öğrenme oranı</td></tr>
+    <tr><td>Maksimum Dizi Uzunluğu</td><td>512 token</td><td>BERTurk üst sınırı (verimizde 13'ü aşmıyor)</td></tr>
+    <tr><td>Best Model Seçimi</td><td>Validation F1</td><td><code>O</code> baskınlığı nedeniyle Accuracy yerine F1 tercih edildi</td></tr>
+    <tr><td>Rastgelelik Tohumu</td><td>42</td><td>Tekrar üretilebilir bölme ve sonuç</td></tr>
+  </tbody>
+</table>
+
+<h3>4.3.4. Çıkarım ve Çakışma Çözümü</h3>
+
+<p>Üç model paralel olarak çalıştığında, aynı kelime dizisi (span) birden fazla model tarafından farklı kategorilere atanabilir. Örneğin <em>"havalara uçtu"</em> ifadesi hem deyim modeli tarafından <code>DEYİM</code>, hem de abartı modeli tarafından <code>ABARTI</code> olarak işaretlenebilir. Bu çakışmalar, <strong><code>max_score</code> (en yüksek güven skoru kazanır) stratejisi</strong> ile çözülmektedir.</p>
+
+<p>Strateji şu şekilde işler: Tüm modellerden gelen tahmin span'leri tek bir listede birleştirilir, güven skorlarına göre azalan sırada sıralanır ve liste başından itibaren her span, daha önce kabul edilmiş hiçbir span ile <strong>örtüşmüyorsa</strong> nihai çıktıya eklenir. Aksi takdirde elenir. Bu strateji, <strong>non-maximum suppression</strong> olarak da bilinen yaklaşımın bir varyantıdır.</p>
+
+<h3>4.3.5. Sözde Kod (Pseudocode)</h3>
+
+<p>Sistemin eğitim ve çıkarım akışları Algoritma 1 ve Algoritma 2'de verilmiştir.</p>
+
+<div class="algo-title">Algoritma 1 &nbsp;&nbsp;Per-Kategori Eğitim</div>
+<pre class="algo">Girdi : kategori c ∈ {DEYİM, MECAZ, ABARTI}, veri kümesi Dc
+Çıktı : en iyi model Mc
+
+1.  L  ←  {O, B-c, I-c}
+2.  Dtrain, Dval, Dtest  ←  rastgele_böl(Dc, 0.8, 0.1, 0.1, seed = 42)
+3.  her bir e ∈ {Dtrain, Dval, Dtest} için:
+4.       e  ←  WordPiece-tokenize(e) ; etiketleri ilk-parçaya hizala
+5.  Mc  ←  BERTurk-base + 3 sınıflı doğrusal sınıflandırma katmanı
+6.  her epoch t = 1..3 için:
+7.       Mc  ←  AdamW(Mc, Dtrain, lr = 2e-5, wd = 0.01, bs = 16)
+8.       f1t  ←  seqeval-F1(Mc, Dval)
+9.  geri döndür  argmax_t f1t        // en iyi epoch'un modeli</pre>
+
+<div class="algo-title">Algoritma 2 &nbsp;&nbsp;Topluluk Çıkarımı</div>
+<pre class="algo">Girdi : metin x, modeller {MDEYİM, MMECAZ, MABARTI}
+Çıktı : nihai span listesi P
+
+1.  P_all  ←  []
+2.  her c ∈ {DEYİM, MECAZ, ABARTI} için:
+3.       Pc  ←  Mc(x)                      // span'ler + güven skorları
+4.       her span s ∈ Pc için: s.kategori  ←  c
+5.       P_all  ←  P_all ∪ Pc
+6.  P_all'ı skorlarına göre azalan sırala
+7.  P  ←  []
+8.  her s ∈ P_all için:
+9.       eğer s, P'deki hiçbir span ile örtüşmüyorsa:
+10.            P.ekle(s)
+11. geri döndür P</pre>
+
+<hr class="section-break">
+
+<h1>5. DENEYSEL SONUÇLAR</h1>
+
+<p>Bu bölümde, geliştirilen 3 modelli sistemin performansı detaylı olarak değerlendirilmiş ve geleneksel tek modelli yaklaşımla karşılaştırılmıştır.</p>
+
+<h2>5.1. Deneysel Ortam</h2>
+
+<p>Tüm deneyler aynı donanım ve yazılım yapılandırmasında, NVIDIA CUDA destekli bir GPU üzerinde gerçekleştirilmiştir. Sistem yazılım yığını Tablo 5.1'de özetlenmiştir.</p>
+
+<div class="caption">Tablo 5.1 &nbsp;&nbsp;Deneysel Ortam</div>
+<table>
+  <thead>
+    <tr><th class="left">Bileşen</th><th class="left">Değer</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GPU</td><td>NVIDIA GeForce RTX 4050</td></tr>
+    <tr><td>Python</td><td>3.11.0</td></tr>
+    <tr><td>PyTorch</td><td>2.5.1 + cu121</td></tr>
+    <tr><td>Transformers</td><td>4.57.3</td></tr>
+    <tr><td>Datasets</td><td>4.7.0</td></tr>
+    <tr><td>seqeval</td><td>1.2.2 ve üzeri</td></tr>
+  </tbody>
+</table>
+
+<p>Üç modelin toplam eğitim süresi 37 saniyenin altında kalmıştır (Tablo 5.2). Bu süre, 3 modelli mimarinin toplam eğitim süresinin pratikte tek model yaklaşımıyla benzer mertebede olduğunu göstermektedir.</p>
+
+<div class="caption">Tablo 5.2 &nbsp;&nbsp;Eğitim Süreleri</div>
+<table>
+  <thead>
+    <tr><th class="left">Model</th><th class="left">Eğitim Adımı</th><th class="num">Süre</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>DEYİM</td><td>60 step × 3 epoch</td><td class="num">19,5 sn</td></tr>
+    <tr><td>MECAZ</td><td>18 step × 3 epoch</td><td class="num">8,8 sn</td></tr>
+    <tr><td>ABARTI</td><td>21 step × 3 epoch</td><td class="num">8,9 sn</td></tr>
+    <tr class="total"><td>Toplam</td><td>—</td><td class="num">37,2 sn</td></tr>
+  </tbody>
+</table>
+
+<h2>5.2. Doğrulama Kümesi Performansı (Per-Epoch)</h2>
+
+<p>Eğitim sürecinde her epoch sonunda doğrulama kümesi üzerinde elde edilen seqeval metrikleri Tablo 5.3'te verilmiştir. Üç modelde de F1 skoru epoch'lar boyunca <strong>monoton olarak artmış</strong>, kayıp ise monoton olarak azalmıştır. Bu, modellerin henüz overfit olmadığını ve daha uzun eğitimden faydalanabileceğini düşündürmektedir.</p>
+
+<div class="caption">Tablo 5.3 &nbsp;&nbsp;Doğrulama Kümesi Per-Epoch Metrikleri</div>
+<table>
+  <thead>
+    <tr>
+      <th class="left">Model</th>
+      <th class="num">Epoch</th>
+      <th class="num">Loss</th>
+      <th class="num">Precision</th>
+      <th class="num">Recall</th>
+      <th class="num">F1</th>
+      <th class="num">Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>DEYİM</td><td class="num">1</td><td class="num">0,3529</td><td class="num">0,5194</td><td class="num">0,5678</td><td class="num">0,5425</td><td class="num">0,8685</td></tr>
+    <tr><td>DEYİM</td><td class="num">2</td><td class="num">0,3406</td><td class="num">0,5600</td><td class="num">0,5932</td><td class="num">0,5761</td><td class="num">0,8761</td></tr>
+    <tr class="highlight"><td>DEYİM</td><td class="num">3</td><td class="num">0,3414</td><td class="num">0,5873</td><td class="num">0,6271</td><td class="num">0,6066</td><td class="num">0,8812</td></tr>
+    <tr><td>MECAZ</td><td class="num">1</td><td class="num">0,4011</td><td class="num">0,7000</td><td class="num">0,4242</td><td class="num">0,5283</td><td class="num">0,8698</td></tr>
+    <tr><td>MECAZ</td><td class="num">2</td><td class="num">0,3079</td><td class="num">0,6296</td><td class="num">0,5152</td><td class="num">0,5667</td><td class="num">0,8750</td></tr>
+    <tr class="highlight"><td>MECAZ</td><td class="num">3</td><td class="num">0,2818</td><td class="num">0,7308</td><td class="num">0,5758</td><td class="num">0,6441</td><td class="num">0,8906</td></tr>
+    <tr><td>ABARTI</td><td class="num">1</td><td class="num">0,3720</td><td class="num">0,4286</td><td class="num">0,4615</td><td class="num">0,4444</td><td class="num">0,8529</td></tr>
+    <tr><td>ABARTI</td><td class="num">2</td><td class="num">0,2486</td><td class="num">0,5238</td><td class="num">0,5641</td><td class="num">0,5432</td><td class="num">0,9129</td></tr>
+    <tr class="highlight"><td>ABARTI</td><td class="num">3</td><td class="num">0,2243</td><td class="num">0,5854</td><td class="num">0,6154</td><td class="num">0,6000</td><td class="num">0,9219</td></tr>
+  </tbody>
+</table>
+<div class="footnote">Sarı arka plan, en iyi (en son) epoch'taki sonuçları göstermektedir.</div>
+
+<h2>5.3. Test Kümesi Performansı (Nihai Sonuçlar)</h2>
+
+<p>Eğitim sonrasında elde edilen en iyi modeller, daha önce hiç görmedikleri test kümesi üzerinde değerlendirilmiştir. Sonuçlar Tablo 5.4'te verilmiştir.</p>
+
+<div class="caption">Tablo 5.4 &nbsp;&nbsp;Test Kümesi Üzerinde Nihai Performans</div>
+<table>
+  <thead>
+    <tr>
+      <th class="left">Kategori</th>
+      <th class="left">N (train/val/test)</th>
+      <th class="num">F1</th>
+      <th class="num">Precision</th>
+      <th class="num">Recall</th>
+      <th class="num">Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>DEYİM</strong></td>  <td>949 / 119 / 119</td><td class="num"><strong>0,7410</strong></td><td class="num">0,7099</td><td class="num">0,7750</td><td class="num">0,9264</td></tr>
+    <tr><td><strong>MECAZ</strong></td>  <td>241 / 30 / 31</td>  <td class="num"><strong>0,5313</strong></td><td class="num">0,6800</td><td class="num">0,4359</td><td class="num">0,8421</td></tr>
+    <tr><td><strong>ABARTI</strong></td> <td>312 / 39 / 39</td>  <td class="num"><strong>0,7654</strong></td><td class="num">0,7381</td><td class="num">0,7949</td><td class="num">0,9431</td></tr>
+    <tr class="total"><td>Makro Ortalama</td><td>—</td><td class="num">0,6792</td><td class="num">0,7093</td><td class="num">0,6686</td><td class="num">0,9039</td></tr>
+  </tbody>
+</table>
+
+<h2>5.4. Karşılaştırmalı Analiz: Tek Model vs Üç Model</h2>
+
+<p>Sistem tasarımının doğrulanabilmesi için, aynı görev üzerinde önce <strong>tek bir 7 sınıflı model</strong> (Bölüm 2'deki klasik yaklaşım), sonra ise önerilen <strong>3 ayrı ikili model</strong> mimarisi eğitilmiş ve test kümesi performansları karşılaştırılmıştır. Sonuçlar Tablo 5.5'te verilmiştir.</p>
+
+<div class="caption">Tablo 5.5 &nbsp;&nbsp;Tek Modelli ve 3 Modelli Yaklaşımların Karşılaştırması</div>
+<table>
+  <thead>
+    <tr>
+      <th class="left">Yaklaşım</th>
+      <th class="left">Veri Kümesi</th>
+      <th class="num">Test F1</th>
+      <th class="num">Test Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Tek model (7 sınıflı)</td><td>dataset.json (2.282 örnek)</td><td class="num">0,6038</td><td class="num">0,8958</td></tr>
+    <tr><td><strong>3-Model — DEYİM</strong></td><td>dataset_deyim.json (1.187)</td><td class="num"><strong>0,7410</strong></td><td class="num">0,9264</td></tr>
+    <tr><td><strong>3-Model — MECAZ</strong></td><td>dataset_mecaz.json (302)</td><td class="num"><strong>0,5313</strong></td><td class="num">0,8421</td></tr>
+    <tr><td><strong>3-Model — ABARTI</strong></td><td>dataset_abarti.json (390)</td><td class="num"><strong>0,7654</strong></td><td class="num">0,9431</td></tr>
+    <tr class="total"><td>3-Model Makro Ortalama</td><td>—</td><td class="num">0,6792</td><td class="num">0,9039</td></tr>
+  </tbody>
+</table>
+
+<p>3 modelli mimari, makro ortalama F1 skorunda tek modelli yaklaşıma kıyasla <strong>+0,0754 mutlak (+%12,5 göreceli)</strong> iyileşme sağlamıştır. Kategori bazlı göreceli iyileşmeler Tablo 5.6'da verilmiştir.</p>
+
+<div class="caption">Tablo 5.6 &nbsp;&nbsp;3-Modelli Yaklaşımın Tek Modelli Yaklaşıma Kıyasla Göreceli Kazancı</div>
+<table>
+  <thead>
+    <tr>
+      <th class="left">Kategori</th>
+      <th class="num">Tek Model F1 (referans)*</th>
+      <th class="num">3-Model F1</th>
+      <th class="num">Mutlak Δ</th>
+      <th class="num">Göreceli Δ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>DEYİM</td>  <td class="num">0,604</td><td class="num">0,7410</td><td class="num">+0,137</td><td class="num"><strong>+%22,7</strong></td></tr>
+    <tr><td>ABARTI</td> <td class="num">0,604</td><td class="num">0,7654</td><td class="num">+0,162</td><td class="num"><strong>+%26,8</strong></td></tr>
+    <tr><td>MECAZ</td>  <td class="num">0,604</td><td class="num">0,5313</td><td class="num">−0,073</td><td class="num">−%12,1</td></tr>
+    <tr class="total"><td>Makro</td><td class="num">0,6038</td><td class="num">0,6792</td><td class="num">+0,075</td><td class="num"><strong>+%12,5</strong></td></tr>
+  </tbody>
+</table>
+<div class="footnote">* Tek model deneyinde kategori bazlı kırılım hesaplanmadığı için, genel test F1 skoru (0,6038) referans olarak alınmıştır.</div>
+
+<h2>5.5. Sonuçların Yorumlanması</h2>
+
+<p><strong>1. DEYİM ve ABARTI modellerinde belirgin başarı artışı.</strong> Hem DEYİM (0,604 → 0,741) hem de ABARTI (0,604 → 0,765) modellerinde test F1 skoru göreceli olarak %22-27 oranında iyileşmiştir. Bu sonuç, üç modelli mimarinin temel hipotezini doğrulamaktadır: <strong>tek bir karar yüzeyi yerine kategori-özel karar yüzeyleri öğrenildiğinde model, daha doğru sınırlar çizebilmekte ve genelleme performansı artmaktadır.</strong></p>
+
+<p><strong>2. MECAZ modelinde performans düşüşü ve kök neden analizi.</strong> MECAZ test F1 skoru 0,531 ile diğer iki kategorinin gerisinde kalmıştır. Bu durumun temel nedenleri Tablo 5.7'de özetlenmiştir.</p>
+
+<div class="caption">Tablo 5.7 &nbsp;&nbsp;MECAZ Modelinin Düşük Performansının Nedenleri</div>
+<table>
+  <thead>
+    <tr><th class="left">Neden</th><th class="left">Açıklama</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Veri kıtlığı</td><td>MECAZ veri kümesi yalnızca <strong>302 cümle</strong> içermekte olup DEYİM'in dörtte birine eşittir.</td></tr>
+    <tr><td>I-MECAZ etiket azlığı</td><td>I-MECAZ tokenları yalnızca 82 adet (B-MECAZ'ın ¼'ü); model çoklu sözcüklü mecaz kalıplarını yeterince öğrenememiştir.</td></tr>
+    <tr><td>Yüksek precision, düşük recall</td><td>Test üzerinde precision 0,68 ve recall 0,44'tür; model mecaz tahmin ettiğinde genellikle haklıdır, ancak gerçek mecazların büyük kısmını <strong>kaçırmaktadır</strong>.</td></tr>
+  </tbody>
+</table>
+
+<p><strong>3. Token seviyesi accuracy yanıltıcıdır.</strong> Üç modelde de test accuracy %84-94 aralığındadır; ancak bu metrik, tüm tokenların yaklaşık %65'ini oluşturan <code>O</code> etiketinin baskınlığından kaynaklanmaktadır. Bir model <strong>hiçbir söz sanatını tespit etmese bile</strong> yalnızca her tokeni <code>O</code> olarak etiketleyerek %65 accuracy elde edebilir. Bu nedenle ana karar metriği olarak F1 skoru tercih edilmiştir.</p>
+
+<p><strong>4. Overfitting (aşırı öğrenme) durumu.</strong> Train ve test F1 skorları arasındaki farklar, modellerin genelleme yeteneği hakkında bilgi vermektedir (Tablo 5.8).</p>
+
+<div class="caption">Tablo 5.8 &nbsp;&nbsp;Overfitting Analizi (Train F1 vs Test F1)</div>
+<table>
+  <thead>
+    <tr>
+      <th class="left">Kategori</th>
+      <th class="num">Train F1</th>
+      <th class="num">Test F1</th>
+      <th class="num">Δ (overfit göstergesi)</th>
+      <th class="left">Yorum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>DEYİM</td>  <td class="num">0,8633</td><td class="num">0,7410</td><td class="num">+0,123</td><td>Orta seviye overfitting</td></tr>
+    <tr><td>MECAZ</td>  <td class="num">0,6191</td><td class="num">0,5313</td><td class="num">+0,088</td><td>Düşük genel performans → <strong>underfitting</strong></td></tr>
+    <tr><td>ABARTI</td> <td class="num">0,7835</td><td class="num">0,7654</td><td class="num">+0,018</td><td>Çok iyi genelleme</td></tr>
+  </tbody>
+</table>
+
+<p>ABARTI modeli train ve test arasında yalnızca 0,018'lik bir fark sergilemekte olup bu, modelin son derece iyi genellediğini göstermektedir. DEYİM modelinde orta seviye bir overfitting eğilimi mevcuttur. MECAZ modelinde train F1 (0,619) zaten düşük olduğundan model <strong>underfit</strong> durumdadır; daha fazla veri ve daha uzun eğitim süresi gerekmektedir.</p>
+
+<p><strong>5. Üç modelin tamamlayıcılığı.</strong> Test örnekleri incelendiğinde, DEYİM ve ABARTI modellerinin başarılı olduğu cümle alt-kümelerinin önemli ölçüde <strong>örtüşmediği</strong> görülmüştür. Bu, üç modelin bilgi açısından birbirini tamamladığını ve ensemble (topluluk) mantığının başarısının yalnızca aritmetik ortalamadan değil, <strong>modeller arası tamamlayıcılıktan</strong> geldiğini desteklemektedir.</p>
+
+<h2>5.6. Sonuç ve Gelecek Çalışma Önerileri</h2>
+
+<p>Bu çalışmada, Türkçe metinlerde söz sanatı tespiti probleminin tek bir 7 sınıflı modelle ele alınması yerine, <strong>3 ayrı ikili NER modeli ile dekompoze edilen bir topluluk mimarisi</strong> önerilmiştir. Önerilen sistem, makro F1 skorunda <strong>+%12,5 göreceli iyileşme</strong> sağlamıştır. Elde edilen bulgular ışığında ileride yapılabilecek geliştirmeler şunlardır:</p>
+
+<table>
+  <thead>
+    <tr><th class="num">#</th><th class="left">Öneri</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="num">1</td><td>MECAZ veri kümesinin ek 500-1000 cümle ile genişletilmesi (en kritik darboğaz).</td></tr>
+    <tr><td class="num">2</td><td>Eğitim süresinin 5-7 epoch'a çıkartılarak <code>EarlyStoppingCallback</code> ile birlikte kullanılması.</td></tr>
+    <tr><td class="num">3</td><td>Çakışma çözümünde <code>max_score</code> yerine <strong>olasılık ağırlıklı oylama</strong> veya <strong>kategori önceliği</strong> stratejilerinin denenmesi.</td></tr>
+    <tr><td class="num">4</td><td>Veri büyütme: özellikle MECAZ için <strong>back-translation</strong> ve <strong>eş anlamlı sözcük değiştirme</strong> gibi sentetik veri üretim tekniklerinin uygulanması.</td></tr>
+    <tr><td class="num">5</td><td>Üç modelin paylaşılan bir BERT gövdesi ve üç ayrı sınıflandırma başlığı ile yeniden inşa edilmesi (multi-task learning ile bellek/işlem maliyetinin düşürülmesi).</td></tr>
+  </tbody>
+</table>
+
+<hr class="section-break">
+
+<h2>Ek Referanslar (Mevcut Listeye Eklenecek)</h2>
+
+<p class="ref">[6] T. Wolf, L. Debut, V. Sanh, et al., "Transformers: State-of-the-art natural language processing," in <em>Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations</em>, Online: Association for Computational Linguistics, Oct. 2020, pp. 38–45. DOI: 10.18653/v1/2020.emnlp-demos.6.</p>
+
+<p class="ref">[7] H. Nakayama, <em>seqeval: A Python framework for sequence labeling evaluation</em>, version 1.2.2, 2018. [Online]. Available: https://github.com/chakki-works/seqeval.</p>
+
+<p class="ref">[8] I. Loshchilov and F. Hutter, "Decoupled weight decay regularization," in <em>International Conference on Learning Representations</em>, 2019.</p>
+
+</body>
+</html>

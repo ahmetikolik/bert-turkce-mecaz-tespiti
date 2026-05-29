@@ -48,7 +48,12 @@ class NLPApp:
         
         self.dataset_var = tk.StringVar()
         self.dataset_combo = ttk.Combobox(train_inner, textvariable=self.dataset_var, state="readonly", width=30)
-        self.dataset_combo['values'] = ("data/dataset_overfit.json", "data/dataset_general.json")
+        self.dataset_combo['values'] = (
+            "data/dataset.json",
+            "data/dataset_deyim_250.json",
+            "data/dataset_general.json",
+            "data/dataset_overfit.json",
+        )
         self.dataset_combo.current(0)
         self.dataset_combo.pack(side=tk.LEFT, padx=5)
         
@@ -297,4 +302,8 @@ class NLPApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = NLPApp(root)
+    root.lift()
+    root.attributes('-topmost', True)
+    root.after(500, lambda: root.attributes('-topmost', False))
+    root.focus_force()
     root.mainloop()
