@@ -1,0 +1,582 @@
+[
+  {
+    "tokens": [
+      "Yorgunluktan",
+      "bir",
+      "adım",
+      "atacak",
+      "hâlim",
+      "kalmadı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Seni",
+      "saatlerdir",
+      "bekliyorum",
+      ",",
+      "neredesin",
+      "?"
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "çantanın",
+      "ağırlığı",
+      "sırtımı",
+      "kırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gülmekten",
+      "gözümden",
+      "yaşlar",
+      "boşandı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Açlıktan",
+      "neredeyse",
+      "bayılacaktım",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "O",
+      "kadar",
+      "üşüdüm",
+      "ki",
+      "buz",
+      "kestim",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "işi",
+      "bitirmek",
+      "yıllarımı",
+      "aldı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Heyecandan",
+      "yüreğim",
+      "duracak",
+      "gibi",
+      "oldu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Korkudan",
+      "yerimden",
+      "kıpırdayamadım",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "kitabı",
+      "bir",
+      "solukta",
+      "okuyup",
+      "bitirdim",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "sözü",
+      "sana",
+      "bin",
+      "kere",
+      "söyledim",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sevincimden",
+      "havalara",
+      "uçtum",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ağladıkça",
+      "gözyaşları",
+      "sel",
+      "oldu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "valiz",
+      "dağ",
+      "gibi",
+      "ağırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Çocuğun",
+      "çantası",
+      "tonlarca",
+      "geliyordu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onu",
+      "görmeyeli",
+      "asırlar",
+      "geçti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "kalabalıkta",
+      "iğne",
+      "atsan",
+      "yere",
+      "düşmezdi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bütün",
+      "gece",
+      "gözüme",
+      "uyku",
+      "girmedi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "haber",
+      "şimşek",
+      "hızıyla",
+      "yayıldı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sıkıntıdan",
+      "patlayacak",
+      "gibiyim",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "boyu",
+      "sırık",
+      "kadar",
+      "uzundu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "derdi",
+      "dağlar",
+      "kaldırmaz",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Yorgunluktan",
+      "ölü",
+      "gibi",
+      "uyudum",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sevinçten",
+      "ayaklarım",
+      "yere",
+      "değmiyordu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "acıya",
+      "yürek",
+      "dayanmaz",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "zenginliği",
+      "saymakla",
+      "bitmez",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Beklemekten",
+      "ayaklarıma",
+      "kara",
+      "sular",
+      "indi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "haberle",
+      "küçük",
+      "dilimi",
+      "yuttum",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sıcaktan",
+      "kavrulduk",
+      "bugün",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "gürültüde",
+      "kulaklarım",
+      "sağır",
+      "oldu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Heyecandan",
+      "kalbim",
+      "göğsümden",
+      "çıkacaktı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "parası",
+      "musluktan",
+      "akıyor",
+      "sanki",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "film",
+      "beni",
+      "koltuğa",
+      "yapıştırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sınav",
+      "stresinden",
+      "tırnaklarımı",
+      "yedim",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ABARTI",
+      "I-ABARTI",
+      "O"
+    ]
+  }
+]
