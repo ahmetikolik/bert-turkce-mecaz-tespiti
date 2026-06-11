@@ -5,6 +5,8 @@ __pycache__/
 # Eğitilmiş Model ve Ağırlık Klasörleri (Çok yer kaplar)
 best_model/
 model_output/
+best_model_*/
+model_output_*/
 tmp_trainer/
 logs/
 
