@@ -1,0 +1,5698 @@
+[
+  {
+    "tokens": [
+      "Bu",
+      "koyu",
+      "sohbeti",
+      "bölmek",
+      "istemem",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Olayı",
+      "bir",
+      "de",
+      "onun",
+      "penceresinden",
+      "görmelisin",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "bu",
+      "pişkin",
+      "tavırları",
+      "herkesi",
+      "bıktırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Söylediği",
+      "sözler",
+      "toplantıda",
+      "soğuk",
+      "duş",
+      "etkisi",
+      "yarattı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "İnce",
+      "bir",
+      "espriyle",
+      "ortamı",
+      "yumuşattı",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "sorunları",
+      "aşmak",
+      "için",
+      "bir",
+      "köprü",
+      "kurmalıyız",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "kirli",
+      "geçmişini",
+      "herkes",
+      "biliyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gelecek",
+      "günler",
+      "bize",
+      "ışık",
+      "tutacak",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Yazarın",
+      "kalemi",
+      "bu",
+      "kitapta",
+      "çok",
+      "sert",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Borçlar",
+      "içinde",
+      "boğulan",
+      "esnaf",
+      "çıkış",
+      "yolu",
+      "arıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "O",
+      "kadar",
+      "dar",
+      "bir",
+      "bakış",
+      "açısı",
+      "var",
+      "ki",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sınavda",
+      "sorular",
+      "arasında",
+      "kaybolup",
+      "gittim",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "acı",
+      "günlerimizde",
+      "bizi",
+      "yalnız",
+      "bırakmadılar",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "soğuk",
+      "davranışları",
+      "aramıza",
+      "duvar",
+      "ördü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Şirket",
+      "bu",
+      "hamlesiyle",
+      "piyasayı",
+      "sarstı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kırık",
+      "bir",
+      "kalple",
+      "yoluna",
+      "devam",
+      "etti",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "konuda",
+      "bana",
+      "açık",
+      "kapı",
+      "bırakmadı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ağır",
+      "bir",
+      "sorumluluk",
+      "altına",
+      "girdik",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "tatlı",
+      "dili",
+      "her",
+      "kapıyı",
+      "açar",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayallerim",
+      "tek",
+      "tek",
+      "yıkıldı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "işte",
+      "mutlaka",
+      "onun",
+      "da",
+      "parmağı",
+      "vardır",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Derin",
+      "bir",
+      "sessizlik",
+      "kapladı",
+      "odayı",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözleriyle",
+      "beni",
+      "kalbimden",
+      "vurdu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Boş",
+      "vaatlerle",
+      "insanları",
+      "kandırmayın",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Olayların",
+      "merkezine",
+      "inmek",
+      "gerekiyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gözü",
+      "yükseklerde",
+      "olan",
+      "bir",
+      "adamdı",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "film",
+      "beni",
+      "başka",
+      "dünyalara",
+      "götürdü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Düşüncelerini",
+      "tazelemek",
+      "için",
+      "tatile",
+      "çıktı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Aradaki",
+      "buzları",
+      "eritmek",
+      "için",
+      "ilk",
+      "adımı",
+      "attı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Karanlık",
+      "işlere",
+      "bulaşmak",
+      "istemiyordu",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "kitap",
+      "ufkumu",
+      "açtı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Dostluğu",
+      "aramıza",
+      "çekilen",
+      "bir",
+      "set",
+      "gibiydi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zayıf",
+      "karakterli",
+      "insanlardan",
+      "uzak",
+      "durur",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ona",
+      "olan",
+      "güvenim",
+      "tamamen",
+      "söndü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kelimenin",
+      "tam",
+      "anlamıyla",
+      "çöktüm",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayatın",
+      "yükü",
+      "omuzlarını",
+      "çökertmişti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Siyah",
+      "bir",
+      "leke",
+      "gibi",
+      "üzerine",
+      "yapıştı",
+      "bu",
+      "iftira",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zaman",
+      "yaralarımızı",
+      "saracak",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "anlatılanlar",
+      "tamamen",
+      "hayal",
+      "ürünü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kuru",
+      "gürültüye",
+      "pabuç",
+      "bırakmayız",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Fikirleri",
+      "çok",
+      "sığ",
+      "bulundu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "İçindeki",
+      "ateş",
+      "hiç",
+      "sönmedi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gönül",
+      "bağlarımızı",
+      "asla",
+      "koparmayalım",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "teklif",
+      "onun",
+      "için",
+      "bir",
+      "can",
+      "simidi",
+      "oldu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zengin",
+      "bir",
+      "hayal",
+      "gücüne",
+      "sahip",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Herkesin",
+      "maskesi",
+      "eninde",
+      "sonunda",
+      "düşer",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kalbini",
+      "ferah",
+      "tutmalısın",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kör",
+      "bir",
+      "tesadüf",
+      "bizi",
+      "buluşturdu",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Düşünce",
+      "dünyası",
+      "oldukça",
+      "geniştir",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ağır",
+      "kanlı",
+      "olması",
+      "işi",
+      "yavaşlattı",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "olayda",
+      "onun",
+      "parmağı",
+      "olduğunu",
+      "seziyorum",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Beni",
+      "bu",
+      "kadar",
+      "ince",
+      "bir",
+      "noktadan",
+      "yakalaması",
+      "şaşırttı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Son",
+      "hamlesiyle",
+      "rakibini",
+      "mat",
+      "etti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "O",
+      "kadar",
+      "çiğ",
+      "bir",
+      "insan",
+      "ki",
+      "anlatamam",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "bu",
+      "pişkin",
+      "cevapları",
+      "sabırları",
+      "taşırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Haberi",
+      "duyunca",
+      "içim",
+      "yandı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Yıllardır",
+      "bu",
+      "gizli",
+      "dosyalar",
+      "üzerinde",
+      "çalışıyorlar",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Geçmişin",
+      "izlerini",
+      "silmek",
+      "hiç",
+      "kolay",
+      "olmayacak",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "sektörde",
+      "henüz",
+      "çok",
+      "toy",
+      "olduğu",
+      "belli",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ona",
+      "karşı",
+      "duyduğum",
+      "sevgi",
+      "gittikçe",
+      "köreliyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözleriyle",
+      "insanların",
+      "duygularını",
+      "kamçılıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "tartışma",
+      "iyice",
+      "çıkmaza",
+      "girdi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gelecek",
+      "stratejilerimizi",
+      "bu",
+      "temeller",
+      "üzerine",
+      "kuracağız",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Karanlık",
+      "düşüncelerinden",
+      "bir",
+      "türlü",
+      "kurtulamıyor",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bütün",
+      "yükü",
+      "tek",
+      "başına",
+      "sırtladı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ona",
+      "olan",
+      "borcum",
+      "beni",
+      "ezdi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kitabın",
+      "bazı",
+      "bölümleri",
+      "beni",
+      "fazlasıyla",
+      "sarstı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "projenin",
+      "mutfağında",
+      "onun",
+      "emeği",
+      "büyük",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Olayları",
+      "hep",
+      "kendi",
+      "süzgecinden",
+      "geçirip",
+      "aktarıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kendi",
+      "kabuğuna",
+      "çekilmiş",
+      "bir",
+      "hayat",
+      "sürüyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Üzerindeki",
+      "ölü",
+      "toprağını",
+      "nihayet",
+      "attı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "kitap",
+      "gerçekten",
+      "çok",
+      "doyurucu",
+      "olmuş",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Eski",
+      "dostluğu",
+      "yeniden",
+      "yeşertmek",
+      "istiyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "O",
+      "kadar",
+      "katı",
+      "bir",
+      "yüreği",
+      "vardı",
+      "ki",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Söylediği",
+      "her",
+      "kelime",
+      "ok",
+      "gibi",
+      "canımı",
+      "yaktı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Fikirleri",
+      "çok",
+      "dar",
+      "bir",
+      "çerçevede",
+      "kalmış",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Şirketin",
+      "başına",
+      "geçince",
+      "tüm",
+      "havası",
+      "değişti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gönül",
+      "kapısını",
+      "herkese",
+      "sonuna",
+      "kadar",
+      "kapatmış",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayatın",
+      "çarkları",
+      "onu",
+      "çok",
+      "yormuştu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "bu",
+      "tutumu",
+      "aramıza",
+      "soğukluk",
+      "soktu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Duygularını",
+      "her",
+      "zaman",
+      "maskelemeyi",
+      "başarırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözleri",
+      "ruhuma",
+      "ilaç",
+      "gibi",
+      "geldi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Olayın",
+      "aslına",
+      "bir",
+      "türlü",
+      "temas",
+      "edemedi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Şehrin",
+      "gürültüsü",
+      "onu",
+      "boğuyordu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "İşlerin",
+      "durgunlaşması",
+      "esnafı",
+      "sarstı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "sessizliği",
+      "fırtına",
+      "öncesi",
+      "sessizlik",
+      "gibiydi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Dostluğu",
+      "zamanla",
+      "derinleşti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "konu",
+      "üzerindeki",
+      "sis",
+      "perdesi",
+      "henüz",
+      "aralanmadı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "planın",
+      "temeli",
+      "çok",
+      "çürük",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kelimelerini",
+      "tartarak",
+      "konuşmaya",
+      "gayret",
+      "ediyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayallerine",
+      "giden",
+      "yolda",
+      "bir",
+      "ışık",
+      "arıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kendini",
+      "bu",
+      "işe",
+      "tamamen",
+      "adamıştı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Aradaki",
+      "bağlar",
+      "zamanla",
+      "koptu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Şüpheleri",
+      "her",
+      "geçen",
+      "gün",
+      "besleniyordu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "adı",
+      "bu",
+      "olaya",
+      "karıştı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "acı",
+      "tecrübe",
+      "onu",
+      "olgunlaştırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "meseleyi",
+      "iyice",
+      "pişirmek",
+      "lazım",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bakışlarıyla",
+      "herkesi",
+      "eritmişti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Özgürlük",
+      "havasını",
+      "ciğerlerine",
+      "çekti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kaderi",
+      "onunla",
+      "oyun",
+      "oynuyordu",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Olayların",
+      "akışına",
+      "kapılıp",
+      "gitti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Dün",
+      "akşam",
+      "sohbet",
+      "çok",
+      "koyuydu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Açık",
+      "bir",
+      "yürekle",
+      "her",
+      "şeyi",
+      "anlattı",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "iş",
+      "beni",
+      "iyice",
+      "kuruttu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Önyargıların",
+      "duvarını",
+      "aşmak",
+      "zordur",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözlerinde",
+      "hiç",
+      "içtenlik",
+      "yok",
+      ",",
+      "çok",
+      "yapay",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zihinlerdeki",
+      "tozları",
+      "almak",
+      "için",
+      "okumalı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Vatan",
+      "borcunu",
+      "ödemek",
+      "için",
+      "yola",
+      "çıktı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bir",
+      "anda",
+      "tüm",
+      "neşesi",
+      "söndü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gerçekler",
+      "yüzüne",
+      "tokat",
+      "gibi",
+      "indi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "karar",
+      "şirketin",
+      "geleceğine",
+      "balta",
+      "vurdu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gözlerindeki",
+      "o",
+      "eski",
+      "ışıltı",
+      "tamamen",
+      "sönmüş",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Düşüncelerini",
+      "bir",
+      "türlü",
+      "kağıda",
+      "dökemiyordu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "bu",
+      "kadar",
+      "geniş",
+      "olması",
+      "beni",
+      "çileden",
+      "çıkardı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Son",
+      "albümüyle",
+      "müzik",
+      "dünyasında",
+      "yepyeni",
+      "bir",
+      "çığır",
+      "açtı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Siyasetin",
+      "kirli",
+      "yüzüyle",
+      "henüz",
+      "tanışmamıştı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "iş",
+      "için",
+      "onun",
+      "da",
+      "onayını",
+      "almak",
+      "şart",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Fikirleri",
+      "arasındaki",
+      "uçurum",
+      "gittikçe",
+      "büyüyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zaman",
+      "tüm",
+      "acıları",
+      "zamanla",
+      "eritecektir",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "ağır",
+      "havayı",
+      "dağıtmak",
+      "için",
+      "bir",
+      "fıkra",
+      "anlattı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ona",
+      "karşı",
+      "beslediğim",
+      "umutlar",
+      "tek",
+      "tek",
+      "çürüyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gelecek",
+      "nesillere",
+      "sağlam",
+      "bir",
+      "miras",
+      "bırakmalıyız",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "konu",
+      "üzerindeki",
+      "tüm",
+      "tozları",
+      "alacağız",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Yazarın",
+      "üslubu",
+      "insanı",
+      "başka",
+      "diyarlara",
+      "sürüklüyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "bu",
+      "hamlesi",
+      "satranç",
+      "tahtasında",
+      "bir",
+      "devrimdi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözlerinle",
+      "yüreğime",
+      "su",
+      "serptin",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "İlişkilerimizdeki",
+      "buzlar",
+      "yavaş",
+      "yavaş",
+      "çözülüyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "tartışma",
+      "meyvesini",
+      "çok",
+      "geç",
+      "verecek",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ona",
+      "karşı",
+      "örüdüğüm",
+      "duvarları",
+      "yıkmaya",
+      "karar",
+      "verdim",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "İş",
+      "hayatının",
+      "çarkları",
+      "arasında",
+      "ezilmek",
+      "istemiyordu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Söylediği",
+      "her",
+      "şey",
+      "beynimde",
+      "yankılanıp",
+      "duruyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "şifreli",
+      "konuşmaları",
+      "çözmek",
+      "imkansız",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zihnindeki",
+      "düğümleri",
+      "bir",
+      "bir",
+      "çözmeye",
+      "başladı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayatın",
+      "acı",
+      "gerçekleriyle",
+      "erken",
+      "yaşta",
+      "yüzleşti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "boş",
+      "hayallerin",
+      "peşinden",
+      "koşmayı",
+      "bırak",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Şehir",
+      "geceleri",
+      "bambaşka",
+      "bir",
+      "ruha",
+      "bürüyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Dostluğu",
+      "aramızda",
+      "sönmeyen",
+      "bir",
+      "ateş",
+      "gibiydi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "kalbi",
+      "herkese",
+      "açık",
+      "bir",
+      "saraydı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "teklif",
+      "onun",
+      "için",
+      "bir",
+      "dönüm",
+      "noktasıydı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözleri",
+      "ruhuma",
+      "dokunan",
+      "birer",
+      "ezgi",
+      "gibiydi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Olayları",
+      "hep",
+      "kendi",
+      "renklerine",
+      "boyuyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "İçindeki",
+      "karanlık",
+      "yavaşça",
+      "gün",
+      "yüzüne",
+      "çıkıyordu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "kitap",
+      "bilim",
+      "dünyasında",
+      "büyük",
+      "bir",
+      "yankı",
+      "uyandırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "bakışları",
+      "buz",
+      "gibi",
+      "soğuktu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kelimeleri",
+      "kılıç",
+      "gibi",
+      "keskin",
+      "bir",
+      "kadındı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "sorun",
+      "için",
+      "köklü",
+      "bir",
+      "çözüm",
+      "gerekiyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zaman",
+      "insanı",
+      "yoğuran",
+      "en",
+      "büyük",
+      "ustadır",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayallerine",
+      "giden",
+      "yollar",
+      "birer",
+      "birer",
+      "tıkandı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ona",
+      "olan",
+      "sevgisi",
+      "zamanla",
+      "kökleşmişti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "anlaşma",
+      "barışın",
+      "teminatı",
+      "olacak",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Siyah",
+      "bir",
+      "leke",
+      "gibi",
+      "geçmişine",
+      "yapıştı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kaderin",
+      "ağları",
+      "onları",
+      "tekrar",
+      "birleştirdi",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "fikir",
+      "aklımda",
+      "iyice",
+      "yer",
+      "etti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Dostluğumuzu",
+      "bu",
+      "saçma",
+      "olayla",
+      "kirletmeyelim",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Olayın",
+      "üstündeki",
+      "perdeyi",
+      "aralamak",
+      "için",
+      "geldik",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözleriyle",
+      "beni",
+      "köşeye",
+      "sıkıştırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "eser",
+      "sanat",
+      "dünyasına",
+      "taze",
+      "kan",
+      "getirecek",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bakışlarında",
+      "derin",
+      "bir",
+      "hüzün",
+      "saklıydı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Her",
+      "fırsatta",
+      "bizi",
+      "iğnelemekten",
+      "çekinmiyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "konuda",
+      "onun",
+      "yüreği",
+      "çok",
+      "geniş",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Anlattıkları",
+      "içimi",
+      "parçaladı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ona",
+      "olan",
+      "borcumuz",
+      "bizi",
+      "bağlıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gelecek",
+      "planlarımız",
+      "şimdilik",
+      "askıda",
+      "bekliyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "mesaj",
+      "herkesi",
+      "ayağa",
+      "kaldırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Şirketin",
+      "üstündeki",
+      "kara",
+      "bulutlar",
+      "nihayet",
+      "dağıldı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "adı",
+      "bu",
+      "pis",
+      "işlere",
+      "hiç",
+      "karışmadı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kendi",
+      "dünyasında",
+      "kaybolmuş",
+      "bir",
+      "ressamdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözleri",
+      "buzdan",
+      "birer",
+      "ok",
+      "gibi",
+      "saplandı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "kitap",
+      "bize",
+      "yepyeni",
+      "kapılar",
+      "aralıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayallerini",
+      "birer",
+      "birer",
+      "sattı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "O",
+      "kadar",
+      "ince",
+      "ruhlu",
+      "bir",
+      "adamdı",
+      "ki",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Olayların",
+      "merkezine",
+      "inmeden",
+      "karar",
+      "verme",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "sorun",
+      "giderek",
+      "kördüğüme",
+      "dönüştü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "felsefesi",
+      "tamamen",
+      "boşlukta",
+      "kalıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zaman",
+      "yaralarımızı",
+      "saracak",
+      "olan",
+      "tek",
+      "şeydir",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Üzerimizdeki",
+      "bu",
+      "ölü",
+      "toprağını",
+      "atmalıyız",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "evlilik",
+      "onun",
+      "için",
+      "bir",
+      "hapishaneydi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Şirket",
+      "bu",
+      "krizden",
+      "yara",
+      "almadan",
+      "kurtuldu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Düşünceleri",
+      "çok",
+      "sığ",
+      "bir",
+      "temele",
+      "dayanıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kalbim",
+      "bu",
+      "habere",
+      "hiç",
+      "hazır",
+      "değildi",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "olay",
+      "aramızdaki",
+      "tüm",
+      "bağları",
+      "kopardı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "gözleri",
+      "her",
+      "şeyi",
+      "anlatıyordu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "acı",
+      "sözlerin",
+      "altında",
+      "kalmak",
+      "istemiyorum",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Herkesin",
+      "maskesi",
+      "elbet",
+      "bir",
+      "gün",
+      "düşecek",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "planın",
+      "ayakları",
+      "yere",
+      "sağlam",
+      "basmıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayallerimi",
+      "yıkan",
+      "o",
+      "adamı",
+      "asla",
+      "affetmem",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "şehre",
+      "karşı",
+      "büyük",
+      "bir",
+      "soğukluk",
+      "hissediyorum",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zihnimi",
+      "kurcalayan",
+      "bu",
+      "sorudan",
+      "kurtulamadım",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "İlişkimiz",
+      "artık",
+      "çıkmaz",
+      "sokağa",
+      "girdi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "bu",
+      "sert",
+      "tavrı",
+      "beni",
+      "ürküttü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "iş",
+      "beni",
+      "tamamen",
+      "tüketti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Fikirlerimizi",
+      "pişirmek",
+      "için",
+      "biraz",
+      "daha",
+      "zaman",
+      "lazım",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "karanlık",
+      "günler",
+      "elbet",
+      "geçer",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "ruhuna",
+      "dokunmak",
+      "hiç",
+      "kolay",
+      "değildi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözlerindeki",
+      "o",
+      "gizli",
+      "zehri",
+      "fark",
+      "etmedim",
+      "sanma",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "başarı",
+      "ona",
+      "yepyeni",
+      "ufuklar",
+      "açtı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayatın",
+      "yükü",
+      "belini",
+      "bükmüştü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "bu",
+      "hamlesi",
+      "tamamen",
+      "göz",
+      "boyamaydı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Aramıza",
+      "giren",
+      "bu",
+      "soğukluk",
+      "hiç",
+      "iyi",
+      "değil",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "meseleyi",
+      "iyice",
+      "kurcalamak",
+      "lazım",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zihinlerdeki",
+      "zincirleri",
+      "kırmak",
+      "hiç",
+      "kolay",
+      "değil",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "anlatılanlar",
+      "tamamen",
+      "hayal",
+      "mahsulü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kelimeleriyle",
+      "adeta",
+      "büyüledi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "işteki",
+      "tüm",
+      "kapılar",
+      "yüzüme",
+      "kapandı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "İçimdeki",
+      "ateş",
+      "hala",
+      "sönmedi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "acı",
+      "tecrübe",
+      "bize",
+      "ders",
+      "oldu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Düşüncelerin",
+      "bir",
+      "nehir",
+      "gibi",
+      "akıp",
+      "gitmesine",
+      "izin",
+      "ver",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Herkesin",
+      "kalbinde",
+      "ayrı",
+      "bir",
+      "yerin",
+      "var",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "yolun",
+      "sonu",
+      "aydınlığa",
+      "çıkacak",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ona",
+      "karşı",
+      "içimde",
+      "büyük",
+      "bir",
+      "kırgınlık",
+      "besliyorum",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "soğuk",
+      "şakalar",
+      "herkesin",
+      "nefretini",
+      "kazandı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayallerini",
+      "gerçekleştirmek",
+      "için",
+      "yanıp",
+      "tutuşuyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ona",
+      "karşı",
+      "tüm",
+      "kapılarımı",
+      "kapattım",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "çürük",
+      "temeller",
+      "üzerine",
+      "bina",
+      "inşa",
+      "edilmez",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözleri",
+      "yüreğimde",
+      "derin",
+      "izler",
+      "bıraktı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Şirketin",
+      "başına",
+      "geçen",
+      "yeni",
+      "müdür",
+      "çok",
+      "dişli",
+      "çıktı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zaman",
+      "tüm",
+      "yaraları",
+      "kabuk",
+      "bağlatır",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "konuyu",
+      "biraz",
+      "daha",
+      "açabilir",
+      "misiniz",
+      "?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kelimeleriyle",
+      "adeta",
+      "bizi",
+      "kamçıladı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "anlaşmazlık",
+      "ilişkimize",
+      "gölge",
+      "düşürdü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Dostluğumuzu",
+      "bu",
+      "tür",
+      "yalanlarla",
+      "lekelemeyin",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Olayların",
+      "arka",
+      "planını",
+      "henüz",
+      "çözemedik",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "bu",
+      "tutumu",
+      "aramıza",
+      "duvarlar",
+      "ördü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayat",
+      "bize",
+      "hiç",
+      "gülmedi",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Söylediği",
+      "her",
+      "şey",
+      "beynimde",
+      "fırtınalar",
+      "kopardı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "iş",
+      "onun",
+      "omuzlarına",
+      "büyük",
+      "bir",
+      "yük",
+      "bindirdi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zihinlerdeki",
+      "tozu",
+      "alacak",
+      "bir",
+      "eğitim",
+      "lazım",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "acı",
+      "sözler",
+      "hepimizin",
+      "içini",
+      "yaktı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "bakışları",
+      "karanlıkta",
+      "bir",
+      "fener",
+      "gibiydi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Siyasetin",
+      "kaygan",
+      "zemininde",
+      "yürümek",
+      "zordur",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "teklif",
+      "onun",
+      "için",
+      "bir",
+      "can",
+      "simidiydi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "adı",
+      "bu",
+      "kirli",
+      "işlere",
+      "hiç",
+      "karışmadı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kendini",
+      "bu",
+      "projenin",
+      "mutfağına",
+      "adamıştı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "planın",
+      "temelleri",
+      "oldukça",
+      "sağlam",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "İlişkimiz",
+      "artık",
+      "bir",
+      "çıkmaza",
+      "girdi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözleri",
+      "ruhuma",
+      "dokunan",
+      "bir",
+      "şarkı",
+      "gibiydi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Geleceğin",
+      "tohumlarını",
+      "bugünden",
+      "atıyoruz",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "konu",
+      "üzerindeki",
+      "sis",
+      "bulutu",
+      "henüz",
+      "dağılmadı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayallerini",
+      "tek",
+      "tek",
+      "suya",
+      "düşürdü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ona",
+      "olan",
+      "sevgim",
+      "zamanla",
+      "köreliyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "anlaşma",
+      "barışın",
+      "kapılarını",
+      "aralayacak",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "İlişkimize",
+      "taze",
+      "kan",
+      "gerekiyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Dostluğumuz",
+      "zamanın",
+      "süzgecinden",
+      "başarıyla",
+      "geçti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kelimeleriyle",
+      "yürekleri",
+      "dağladı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "tartışma",
+      "iyice",
+      "sarpa",
+      "sardı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "kalbi",
+      "herkese",
+      "açık",
+      "bir",
+      "limandır",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Olayları",
+      "hep",
+      "kendi",
+      "penceresinden",
+      "izliyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zaman",
+      "yaralarımızı",
+      "saracak",
+      "olan",
+      "tek",
+      "ilaçtır",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Şehrin",
+      "gürültüsü",
+      "onu",
+      "adeta",
+      "yutuyordu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "adı",
+      "artık",
+      "tarihe",
+      "gömüldü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "soğuk",
+      "davranışları",
+      "aramıza",
+      "set",
+      "çekti",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Söylediği",
+      "sözler",
+      "yüreğimi",
+      "parçaladı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "meseleyi",
+      "iyice",
+      "pişirmek",
+      "gerekiyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "eser",
+      "sanat",
+      "dünyasında",
+      "büyük",
+      "bir",
+      "yankı",
+      "uyandırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gözlerindeki",
+      "o",
+      "eski",
+      "ışık",
+      "artık",
+      "yok",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "haber",
+      "herkesi",
+      "şoka",
+      "soktu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "bu",
+      "sert",
+      "tavırları",
+      "herkesi",
+      "ürküttü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "iş",
+      "beni",
+      "tamamen",
+      "kuruttu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Fikirlerimiz",
+      "çok",
+      "sığ",
+      "bir",
+      "temele",
+      "dayanıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözlerindeki",
+      "zehri",
+      "fark",
+      "etmemek",
+      "imkansız",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "planın",
+      "mutfağında",
+      "kimler",
+      "var",
+      "?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hayallerimi",
+      "satan",
+      "o",
+      "adamı",
+      "asla",
+      "affetmem",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zihinlerdeki",
+      "paslı",
+      "fikirleri",
+      "temizlemek",
+      "lazım",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "yolun",
+      "sonu",
+      "karanlık",
+      "görünüyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "kalbi",
+      "buz",
+      "tutmuş",
+      "adeta",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "sorun",
+      "giderek",
+      "bir",
+      "kördüğüme",
+      "dönüştü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bakışlarındaki",
+      "derinliği",
+      "kimse",
+      "anlamıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sözleriyle",
+      "insanları",
+      "büyülemeyi",
+      "başarırdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ona",
+      "olan",
+      "güvenim",
+      "tamamen",
+      "yıkıldı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "karanlık",
+      "işlerin",
+      "sonu",
+      "hiç",
+      "iyi",
+      "değil",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kelimeleri",
+      "kılıç",
+      "gibi",
+      "keskin",
+      "bir",
+      "adamdı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zihinlerdeki",
+      "paslı",
+      "zincirleri",
+      "kırmak",
+      "lazım",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Onun",
+      "felsefesi",
+      "tamamen",
+      "havada",
+      "kalıyor",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Soğuk",
+      "davranışları",
+      "herkeste",
+      "şüphe",
+      "uyandırdı",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Olaylara",
+      "dar",
+      "açıdan",
+      "bakıyorsun",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "konuda",
+      "karanlık",
+      "noktalar",
+      "var",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ağır",
+      "sözler",
+      "söyleyerek",
+      "kalbimi",
+      "kırdı",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Tatlı",
+      "dili",
+      "ile",
+      "herkesi",
+      "ikna",
+      "eder.",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Keskin",
+      "bir",
+      "zekası",
+      "vardı",
+      "çocuğun",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bu",
+      "acı",
+      "haber",
+      "onu",
+      "çok",
+      "sarstı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sıcak",
+      "bir",
+      "karşılama",
+      "yaptılar",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ezik",
+      "bir",
+      "sesle",
+      "konuşuyordu",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Koyu",
+      "bir",
+      "muhabbete",
+      "daldık",
+      "eski",
+      "arkadaşımla",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Boş",
+      "vaatlerle",
+      "bizi",
+      "oyaladı",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Katı",
+      "kuralları",
+      "yüzünden",
+      "sevilmezdi",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Aydınlık",
+      "bir",
+      "gelecek",
+      "bizi",
+      "bekliyor",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kirli",
+      "oyunlar",
+      "dönüyordu",
+      "şirketin",
+      "içinde",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Parlak",
+      "fikirleri",
+      "sayesinde",
+      "terfi",
+      "aldı",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sönük",
+      "bir",
+      "hayat",
+      "yaşıyordu",
+      "buralarda",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Çiğ",
+      "espriler",
+      "yaparak",
+      "ortamı",
+      "soğuttu",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sert",
+      "bakışlarla",
+      "etrafı",
+      "süzdü",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "İnce",
+      "esprileri",
+      "herkes",
+      "anlamıyordu",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Yumuşak",
+      "bir",
+      "ses",
+      "tonuyla",
+      "itiraz",
+      "etti",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Zehir",
+      "gibi",
+      "sorular",
+      "hazırlamıştı",
+      "."
+    ],
+    "labels": [
+      "B-MECAZ",
+      "I-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gökyüzünde",
+      "yıldızlar",
+      "dans",
+      "ediyordu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Rüzgar",
+      "hüzünlü",
+      "bir",
+      "şarkı",
+      "söylüyordu",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Toplantıda",
+      "havayı",
+      "yumuşatmak",
+      "istedi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Umutlarım",
+      "yeşermeye",
+      "başladı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cesareti",
+      "kırılmış",
+      "halde",
+      "geri",
+      "döndü",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Gülücükler",
+      "saçarak",
+      "içeri",
+      "girdi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kötü",
+      "haber",
+      "havada",
+      "asıldı",
+      "kaldı",
+      "."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-MECAZ",
+      "I-MECAZ",
+      "I-MECAZ",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Kalbi",
+      "taşlaşmış",
+      "biri",
+      "gibiydi",
+      "."
+    ],
+    "labels": [
+      "O",
+      "B-MECAZ",
+      "O",
+      "O",
+      "O"
+    ]
+  }
+]
